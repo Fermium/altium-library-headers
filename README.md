@@ -14,21 +14,26 @@ Preview every symbol, then import the ones you need straight into Sideband.
 
 ## Families
 
-| Family | Name pattern | Pins | Notes |
+Pin headers, sockets and jumpers all share the same nomenclature and geometry —
+single (`N`), dual zig-zag (`NX2`), and dual column-sequential (`NX2A`):
+
+| Family | Name pattern | Range | Notes |
 |---|---|---|---|
-| Single row | `Header N` | N | one column, 1…N down the left (300 mil body) |
-| Dual row | `Header NX2` | 2N | zig-zag numbering 1,2 / 3,4 / … (400 mil) |
-| Dual row, angled | `Header NX2A` | 2N | column-sequential: left 1…N, right N+1…2N |
-| Socket (female) | `Socket N`, `Socket NX2` | N / 2N | receptacle counterparts, cup cue per pin |
-| Boxed / shrouded IDC | `Header IDC T` | T | dual row with polarizing notch + pin-1 marker |
-| Jumper | `Jumper 2`, `Jumper 3`, `Jumper 2X2` | 2–4 | small link / select headers |
-| Terminal block | `Terminal Block N` | N | N-way screw terminal (screw + slot per way) |
+| Pin header | `Header N` / `NX2` / `NX2A` | N = 1…100 | blue outline body, numbered pins |
+| Socket (female) | `Socket N` / `NX2` / `NX2A` | N = 1…100 | same as headers + receptacle cup per pin |
+| Jumper / link | `Jumper N` / `NX2` / `NX2A` | N = 1…100 | same as headers, jumper/select naming |
+| Boxed / shrouded IDC | `Header IDC T` | T = 2…100 even | dual row + polarizing notch + pin-1 marker |
+| Terminal block | `Terminal Block N` | N = 1…100 | N-way screw terminal (screw + slot per way) |
 
-`Header`/`Socket` single, dual and angled families cover **1–100** in the name
-(so dual/angled run up to 200 physical pins). Boxed IDC uses the standard sizes
-(6, 10, 14, 16, 20, 26, 34, 40, 50, 60, 64); terminal blocks are 2–12 way.
+**Full sweeps, no curation** — every size in range is generated (dual/angled run
+to 200 physical pins; IDC `T` is total pins, even only = 2×rows). 1050 symbols,
+each with an SVG preview.
 
-Each family is stored in its own folder under `symbols/` (mirrored under
+Shared conventions: 100 mil grid, 200 mil pins, electrical type *Passive*; the
+visible number is the pin *name* (designator hidden); blue body outline with a
+pale-yellow (non-solid) fill; component designator `P?`.
+
+Each family/variant is stored in its own folder under `symbols/` (mirrored under
 `previews/`):
 
 ```
@@ -36,15 +41,15 @@ symbols/
   Pin Headers - Single Row/        Header N
   Pin Headers - Dual Row/          Header NX2
   Pin Headers - Dual Row Angled/   Header NX2A
-  Sockets/                         Socket N, Socket NX2
+  Sockets - Single Row/            Socket N
+  Sockets - Dual Row/              Socket NX2
+  Sockets - Dual Row Angled/       Socket NX2A
+  Jumpers - Single Row/            Jumper N
+  Jumpers - Dual Row/              Jumper NX2
+  Jumpers - Dual Row Angled/       Jumper NX2A
   Boxed Headers IDC/               Header IDC T
-  Jumpers/                         Jumper 2/3/2X2
   Terminal Blocks/                 Terminal Block N
 ```
-
-Shared conventions: 100 mil grid, 200 mil pins, electrical type *Passive*; the
-visible number is the pin *name* (designator hidden); blue body outline with a
-pale-yellow (non-solid) fill; component designator `P?`.
 
 ## Previews
 

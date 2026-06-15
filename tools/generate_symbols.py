@@ -66,11 +66,10 @@ SYMBOLS_DIR = Path("symbols")
 SVG_DIR = Path("previews")
 
 # Default counts. N is the number that appears in the symbol name (= rows; for
-# dual families the real pin count is 2N).
-DEFAULT_RANGE = "1-100"
-IDC_TOTALS = [6, 10, 14, 16, 20, 26, 34, 40, 50, 60, 64]   # total pins (2 x rows)
-JUMPER_SINGLE = [2, 3]
-TERMINAL_WAYS = list(range(2, 13))                          # 2..12 way
+# dual families the real pin count is 2N). Full sweeps — no curation.
+DEFAULT_RANGE = "1-100"          # single / dual / angled for header/socket/jumper
+DEFAULT_TERMINAL = "1-100"       # terminal-block ways
+DEFAULT_IDC = "2-100"            # boxed IDC, by TOTAL pins (even only -> 2x rows)
 
 
 # ── Low-level primitive helpers ───────────────────────────────────────────────
@@ -119,34 +118,6 @@ def _new(name: str, description: str):
     return lib, lib.add_symbol(name, description=description)
 
 
-# ── Family builders ───────────────────────────────────────────────────────────
-def build_single(n: int):
-    lib, s = _new(f"Header {n}", f"Header, {n}-Pin")
-    for i in range(1, n + 1):
-        _pin_left(s, i, i, i)
-    _finish(s, _body(s, n, W_SINGLE))
-    return f"Header {n}", lib, f"{n}-Pin Header", "Header"
-
-
-def build_dual(n: int):
-    lib, s = _new(f"Header {n}X2", f"Header, {n}-Pin, Dual row")
-    for i in range(1, n + 1):
-        _pin_left(s, 2 * i - 1, 2 * i - 1, i)
-        _pin_right(s, 2 * i, 2 * i, i)
-    _finish(s, _body(s, n, W_DUAL))
-    return f"Header {n}X2", lib, f"{n}×2 Pin Header", "Header"
-
-
-def build_angled(n: int):
-    lib, s = _new(f"Header {n}X2A", f"Header, {n}-Pin, Dual row")
-    for i in range(1, n + 1):
-        _pin_left(s, i, i, i)
-    for i in range(1, n + 1):
-        _pin_right(s, n + i, n + i, i)
-    _finish(s, _body(s, n, W_DUAL))
-    return f"Header {n}X2A", lib, f"{n}×2 Pin Header (Angled)", "Header"
-
-
 CUP_RADIUS = 40
 CUP_SEGMENTS = 8
 
@@ -170,28 +141,69 @@ def _socket_cup(sym, x: int, row: int, facing_left: bool) -> None:
     sym.add_polyline(pts, color=LINE_COLOR, line_width=LineWidth.SMALL)
 
 
-def build_socket_single(n: int):
-    lib, s = _new(f"Socket {n}", f"Socket (Female header), {n}-Pin")
+# ── Generic single/dual/angled builders ──────────────────────────────────────
+# Pin headers, sockets and jumpers share identical geometry and nomenclature
+# (N / NX2 / NX2A). The only differences are the name prefix, the description /
+# display text, the catalog category, and whether sockets draw receptacle cups.
+
+def _gen_single(prefix, n, cat, cups=False):
+    name = f"{prefix} {n}"
+    lib, s = _new(name, f"{prefix}, {n}-Pin")
     for i in range(1, n + 1):
         _pin_left(s, i, i, i)
     y1 = _body(s, n, W_SINGLE)
-    for i in range(1, n + 1):
-        _socket_cup(s, 0, i, facing_left=True)
+    if cups:
+        for i in range(1, n + 1):
+            _socket_cup(s, 0, i, facing_left=True)
     _finish(s, y1)
-    return f"Socket {n}", lib, f"{n}-Pin Socket", "Socket"
+    return name, lib, f"{n}-Pin {prefix}", cat
 
 
-def build_socket_dual(n: int):
-    lib, s = _new(f"Socket {n}X2", f"Socket (Female header), {n}-Pin, Dual row")
+def _gen_dual(prefix, n, cat, cups=False):
+    name = f"{prefix} {n}X2"
+    lib, s = _new(name, f"{prefix}, {n}-Pin, Dual row")
     for i in range(1, n + 1):
         _pin_left(s, 2 * i - 1, 2 * i - 1, i)
         _pin_right(s, 2 * i, 2 * i, i)
     y1 = _body(s, n, W_DUAL)
-    for i in range(1, n + 1):
-        _socket_cup(s, 0, i, facing_left=True)
-        _socket_cup(s, ROW_GAP, i, facing_left=False)
+    if cups:
+        for i in range(1, n + 1):
+            _socket_cup(s, 0, i, facing_left=True)
+            _socket_cup(s, ROW_GAP, i, facing_left=False)
     _finish(s, y1)
-    return f"Socket {n}X2", lib, f"{n}×2 Pin Socket", "Socket"
+    return name, lib, f"{n}×2 Pin {prefix}", cat
+
+
+def _gen_angled(prefix, n, cat, cups=False):
+    name = f"{prefix} {n}X2A"
+    lib, s = _new(name, f"{prefix}, {n}-Pin, Dual row")
+    for i in range(1, n + 1):
+        _pin_left(s, i, i, i)
+    for i in range(1, n + 1):
+        _pin_right(s, n + i, n + i, i)
+    y1 = _body(s, n, W_DUAL)
+    if cups:
+        for i in range(1, n + 1):
+            _socket_cup(s, 0, i, facing_left=True)
+            _socket_cup(s, ROW_GAP, i, facing_left=False)
+    _finish(s, y1)
+    return name, lib, f"{n}×2 Pin {prefix} (Angled)", cat
+
+
+# Pin headers
+def build_single(n):  return _gen_single("Header", n, "Header")
+def build_dual(n):    return _gen_dual("Header", n, "Header")
+def build_angled(n):  return _gen_angled("Header", n, "Header")
+
+# Sockets (female) — same nomenclature as pin headers, with receptacle cups
+def build_socket_single(n):  return _gen_single("Socket", n, "Socket", cups=True)
+def build_socket_dual(n):    return _gen_dual("Socket", n, "Socket", cups=True)
+def build_socket_angled(n):  return _gen_angled("Socket", n, "Socket", cups=True)
+
+# Jumpers / link headers — same nomenclature as pin headers
+def build_jumper_single(n):  return _gen_single("Jumper", n, "Jumper")
+def build_jumper_dual(n):    return _gen_dual("Jumper", n, "Jumper")
+def build_jumper_angled(n):  return _gen_angled("Jumper", n, "Jumper")
 
 
 def build_idc(total: int):
@@ -225,15 +237,6 @@ def build_jumper_single(n: int):
     return f"Jumper {n}", lib, f"{n}-Pin Jumper", "Jumper"
 
 
-def build_jumper_2x2():
-    lib, s = _new("Jumper 2X2", "Jumper / select header, 2×2, 4-Pin")
-    for i in range(1, 3):
-        _pin_left(s, 2 * i - 1, 2 * i - 1, i)
-        _pin_right(s, 2 * i, 2 * i, i)
-    _finish(s, _body(s, 2, W_DUAL))
-    return "Jumper 2X2", lib, "2×2 Pin Jumper", "Jumper"
-
-
 def build_terminal(n: int):
     name = f"Terminal Block {n}"
     lib, s = _new(name, f"Screw terminal block, {n}-Way")
@@ -263,29 +266,23 @@ def _parse_counts(spec: str) -> list[int]:
     return sorted(out)
 
 
-# Each family lands in its own subfolder under symbols/ (and previews/).
-F_SINGLE = "Pin Headers - Single Row"
-F_DUAL = "Pin Headers - Dual Row"
-F_ANGLED = "Pin Headers - Dual Row Angled"
-F_SOCKET = "Sockets"
-F_IDC = "Boxed Headers IDC"
-F_JUMPER = "Jumpers"
-F_TERMINAL = "Terminal Blocks"
-
-
+# Each family/variant lands in its own subfolder under symbols/ (and previews/).
 def build_plan(args) -> list:
     """Return an ordered list of (builder, arg, folder) entries."""
-    plan: list = []
-    plan += [(build_single, n, F_SINGLE) for n in _parse_counts(args.single)]
-    plan += [(build_dual, n, F_DUAL) for n in _parse_counts(args.dual)]
-    plan += [(build_angled, n, F_ANGLED) for n in _parse_counts(args.angled)]
-    plan += [(build_socket_single, n, F_SOCKET) for n in _parse_counts(args.socket_single)]
-    plan += [(build_socket_dual, n, F_SOCKET) for n in _parse_counts(args.socket_dual)]
-    if not args.no_extras:
-        plan += [(build_idc, t, F_IDC) for t in IDC_TOTALS]
-        plan += [(build_jumper_single, n, F_JUMPER) for n in JUMPER_SINGLE]
-        plan += [(build_jumper_2x2, None, F_JUMPER)]
-        plan += [(build_terminal, n, F_TERMINAL) for n in TERMINAL_WAYS]
+    idc_totals = [t for t in _parse_counts(args.idc) if t % 2 == 0]  # need 2 rows
+    plan: list = [
+        *[(build_single, n, "Pin Headers - Single Row") for n in _parse_counts(args.single)],
+        *[(build_dual, n, "Pin Headers - Dual Row") for n in _parse_counts(args.dual)],
+        *[(build_angled, n, "Pin Headers - Dual Row Angled") for n in _parse_counts(args.angled)],
+        *[(build_socket_single, n, "Sockets - Single Row") for n in _parse_counts(args.socket_single)],
+        *[(build_socket_dual, n, "Sockets - Dual Row") for n in _parse_counts(args.socket_dual)],
+        *[(build_socket_angled, n, "Sockets - Dual Row Angled") for n in _parse_counts(args.socket_angled)],
+        *[(build_jumper_single, n, "Jumpers - Single Row") for n in _parse_counts(args.jumper_single)],
+        *[(build_jumper_dual, n, "Jumpers - Dual Row") for n in _parse_counts(args.jumper_dual)],
+        *[(build_jumper_angled, n, "Jumpers - Dual Row Angled") for n in _parse_counts(args.jumper_angled)],
+        *[(build_idc, t, "Boxed Headers IDC") for t in idc_totals],
+        *[(build_terminal, n, "Terminal Blocks") for n in _parse_counts(args.terminal)],
+    ]
     return plan
 
 
@@ -329,8 +326,12 @@ def main() -> None:
     ap.add_argument("--angled", default=DEFAULT_RANGE)
     ap.add_argument("--socket-single", default=DEFAULT_RANGE, dest="socket_single")
     ap.add_argument("--socket-dual", default=DEFAULT_RANGE, dest="socket_dual")
-    ap.add_argument("--no-extras", action="store_true",
-                    help="skip IDC / jumper / terminal-block families")
+    ap.add_argument("--socket-angled", default=DEFAULT_RANGE, dest="socket_angled")
+    ap.add_argument("--jumper-single", default=DEFAULT_RANGE, dest="jumper_single")
+    ap.add_argument("--jumper-dual", default=DEFAULT_RANGE, dest="jumper_dual")
+    ap.add_argument("--jumper-angled", default=DEFAULT_RANGE, dest="jumper_angled")
+    ap.add_argument("--idc", default=DEFAULT_IDC, help="boxed IDC by TOTAL pins (even only)")
+    ap.add_argument("--terminal", default=DEFAULT_TERMINAL, help="terminal-block ways")
     ap.add_argument("--no-svg", action="store_true", help="do not render SVG previews")
     ap.add_argument("--no-manifest", action="store_true",
                     help="do not (re)write symbols.yaml")
