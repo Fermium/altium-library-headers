@@ -1,0 +1,3 @@
+# Dependencies for the symbol generator (tools/). Not needed by publish.py.
+altium-monkey
+pyyaml

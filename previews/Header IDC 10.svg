@@ -1,0 +1,66 @@
+<?xml version="1.0"  encoding="UTF-8" standalone="no"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke-linecap="round" stroke-linejoin="round" fill="none" width="180" height="160" viewBox="0 0 180 160" data-doc-id="symbol-Header IDC 10" data-doc-ver="2">
+<g id = "scene" >
+<g id = "DocumentMainGroup" >
+<g id = "BackgroundGroup" >
+<rect x = "0" y="0" width="180" height="160" fill="#FFFFFF" fill-opacity="1"/>
+</g>
+<g id = "symbol-Header IDC 10" >
+<g id = "DocumentItemsGroup" >
+<g id = "LMXUXFUQ" >
+<rect x = "70" y="50" width="40" height="60" stroke="#0000FF" stroke-width="1px"/>
+</g>
+<g id = "MOQFKAGB" >
+<line x1="86" y1="50" x2="86" y2="55" stroke="#000000" stroke-width="1px"/>
+<line x1="86" y1="55" x2="94" y2="55" stroke="#000000" stroke-width="1px"/>
+<line x1="94" y1="55" x2="94" y2="50" stroke="#000000" stroke-width="1px"/>
+</g>
+<g id = "TADZMRWX" >
+<polygon points="74,57 74,63 79,60" fill="#FF0000" fill-opacity="1"/>
+<polygon points="74,57 74,63 79,60" fill="none" stroke="#FF0000" stroke-width="0.5px" vector-effect="non-scaling-stroke"/>
+</g>
+<g id = "YINAXQWY" >
+<line x1="70" y1="60" x2="50" y2="60" stroke="#000000" stroke-width="1px"/>
+<text x="77" y="63" font-size="8.888889px" font-family="Times New Roman" fill="#000000" xml:space="preserve">1</text>
+</g>
+<g id = "EEQEANZJ" >
+<line x1="110" y1="60" x2="130" y2="60" stroke="#000000" stroke-width="1px"/>
+<text x="98.0556" y="63" font-size="8.888889px" font-family="Times New Roman" fill="#000000" xml:space="preserve">2</text>
+</g>
+<g id = "TYCBAPBQ" >
+<line x1="70" y1="70" x2="50" y2="70" stroke="#000000" stroke-width="1px"/>
+<text x="77" y="73" font-size="8.888889px" font-family="Times New Roman" fill="#000000" xml:space="preserve">3</text>
+</g>
+<g id = "SPEIYOIX" >
+<line x1="110" y1="70" x2="130" y2="70" stroke="#000000" stroke-width="1px"/>
+<text x="98.0556" y="73" font-size="8.888889px" font-family="Times New Roman" fill="#000000" xml:space="preserve">4</text>
+</g>
+<g id = "EGXIQSRD" >
+<line x1="70" y1="80" x2="50" y2="80" stroke="#000000" stroke-width="1px"/>
+<text x="77" y="83" font-size="8.888889px" font-family="Times New Roman" fill="#000000" xml:space="preserve">5</text>
+</g>
+<g id = "IHTLPUCH" >
+<line x1="110" y1="80" x2="130" y2="80" stroke="#000000" stroke-width="1px"/>
+<text x="98.0556" y="83" font-size="8.888889px" font-family="Times New Roman" fill="#000000" xml:space="preserve">6</text>
+</g>
+<g id = "KTFYZYBI" >
+<line x1="70" y1="90" x2="50" y2="90" stroke="#000000" stroke-width="1px"/>
+<text x="77" y="93" font-size="8.888889px" font-family="Times New Roman" fill="#000000" xml:space="preserve">7</text>
+</g>
+<g id = "EQMQAXRV" >
+<line x1="110" y1="90" x2="130" y2="90" stroke="#000000" stroke-width="1px"/>
+<text x="98.0556" y="93" font-size="8.888889px" font-family="Times New Roman" fill="#000000" xml:space="preserve">8</text>
+</g>
+<g id = "GFDEPYZH" >
+<line x1="70" y1="100" x2="50" y2="100" stroke="#000000" stroke-width="1px"/>
+<text x="77" y="103" font-size="8.888889px" font-family="Times New Roman" fill="#000000" xml:space="preserve">9</text>
+</g>
+<g id = "WGABQLHO" >
+<line x1="110" y1="100" x2="130" y2="100" stroke="#000000" stroke-width="1px"/>
+<text x="93.1111" y="103" font-size="8.888889px" font-family="Times New Roman" fill="#000000" xml:space="preserve">10</text>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>
