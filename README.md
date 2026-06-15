@@ -28,6 +28,20 @@ Preview every symbol, then import the ones you need straight into Sideband.
 (so dual/angled run up to 200 physical pins). Boxed IDC uses the standard sizes
 (6, 10, 14, 16, 20, 26, 34, 40, 50, 60, 64); terminal blocks are 2–12 way.
 
+Each family is stored in its own folder under `symbols/` (mirrored under
+`previews/`):
+
+```
+symbols/
+  Pin Headers - Single Row/        Header N
+  Pin Headers - Dual Row/          Header NX2
+  Pin Headers - Dual Row Angled/   Header NX2A
+  Sockets/                         Socket N, Socket NX2
+  Boxed Headers IDC/               Header IDC T
+  Jumpers/                         Jumper 2/3/2X2
+  Terminal Blocks/                 Terminal Block N
+```
+
 Shared conventions: 100 mil grid, 200 mil pins, electrical type *Passive*; the
 visible number is the pin *name* (designator hidden); blue body outline with a
 pale-yellow (non-solid) fill; component designator `P?`.

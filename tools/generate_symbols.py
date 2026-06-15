@@ -36,6 +36,7 @@ disables a family. By default the standard set is generated:
 from __future__ import annotations
 
 import argparse
+import math
 from pathlib import Path
 
 from altium_monkey import (
@@ -146,15 +147,27 @@ def build_angled(n: int):
     return f"Header {n}X2A", lib, f"{n}×2 Pin Header (Angled)", "Header"
 
 
+CUP_RADIUS = 40
+CUP_SEGMENTS = 8
+
+
 def _socket_cup(sym, x: int, row: int, facing_left: bool) -> None:
-    """A small semicircular 'cup' at a pin's inner end to read as a receptacle."""
+    """A semicircular 'cup' at a pin's inner end to read as a receptacle.
+
+    Drawn as a polyline (not an arc): altium-monkey's symbol SVG renderer draws
+    circular arcs as full ellipses, so an `add_arc` half-circle shows up as a
+    dot. A polyline half-circle renders faithfully in both Altium and the SVG.
+    The cup bulges into the body and opens toward the incoming pin.
+    """
     y = -PITCH * row
-    if facing_left:   # left-column pin (enters from the west): ')' opening west
-        sym.add_arc(x, y, 30, start_angle=-90, end_angle=90,
-                    color=LINE_COLOR, line_width=LineWidth.SMALL)
-    else:             # right-column pin (enters from the east): '(' opening east
-        sym.add_arc(x, y, 30, start_angle=90, end_angle=270,
-                    color=LINE_COLOR, line_width=LineWidth.SMALL)
+    step = 180 // CUP_SEGMENTS
+    if facing_left:   # left column: bulge east (+x), opening faces west toward pin
+        degs = range(-90, 91, step)
+    else:             # right column: bulge west (-x), opening faces east toward pin
+        degs = range(90, 271, step)
+    pts = [(round(x + CUP_RADIUS * math.cos(math.radians(d))),
+            round(y + CUP_RADIUS * math.sin(math.radians(d)))) for d in degs]
+    sym.add_polyline(pts, color=LINE_COLOR, line_width=LineWidth.SMALL)
 
 
 def build_socket_single(n: int):
@@ -250,19 +263,29 @@ def _parse_counts(spec: str) -> list[int]:
     return sorted(out)
 
 
+# Each family lands in its own subfolder under symbols/ (and previews/).
+F_SINGLE = "Pin Headers - Single Row"
+F_DUAL = "Pin Headers - Dual Row"
+F_ANGLED = "Pin Headers - Dual Row Angled"
+F_SOCKET = "Sockets"
+F_IDC = "Boxed Headers IDC"
+F_JUMPER = "Jumpers"
+F_TERMINAL = "Terminal Blocks"
+
+
 def build_plan(args) -> list:
-    """Return an ordered list of zero-arg builder thunks."""
+    """Return an ordered list of (builder, arg, folder) entries."""
     plan: list = []
-    plan += [(build_single, n) for n in _parse_counts(args.single)]
-    plan += [(build_dual, n) for n in _parse_counts(args.dual)]
-    plan += [(build_angled, n) for n in _parse_counts(args.angled)]
-    plan += [(build_socket_single, n) for n in _parse_counts(args.socket_single)]
-    plan += [(build_socket_dual, n) for n in _parse_counts(args.socket_dual)]
+    plan += [(build_single, n, F_SINGLE) for n in _parse_counts(args.single)]
+    plan += [(build_dual, n, F_DUAL) for n in _parse_counts(args.dual)]
+    plan += [(build_angled, n, F_ANGLED) for n in _parse_counts(args.angled)]
+    plan += [(build_socket_single, n, F_SOCKET) for n in _parse_counts(args.socket_single)]
+    plan += [(build_socket_dual, n, F_SOCKET) for n in _parse_counts(args.socket_dual)]
     if not args.no_extras:
-        plan += [(build_idc, t) for t in IDC_TOTALS]
-        plan += [(build_jumper_single, n) for n in JUMPER_SINGLE]
-        plan += [(build_jumper_2x2, None)]
-        plan += [(build_terminal, n) for n in TERMINAL_WAYS]
+        plan += [(build_idc, t, F_IDC) for t in IDC_TOTALS]
+        plan += [(build_jumper_single, n, F_JUMPER) for n in JUMPER_SINGLE]
+        plan += [(build_jumper_2x2, None, F_JUMPER)]
+        plan += [(build_terminal, n, F_TERMINAL) for n in TERMINAL_WAYS]
     return plan
 
 
@@ -323,17 +346,21 @@ def main() -> None:
 
     plan = build_plan(args)
     rows: list[tuple[str, str, str]] = []
-    for builder, arg in plan:
+    for builder, arg, folder in plan:
         name, lib, display, category = builder() if arg is None else builder(arg)
-        path = out_dir / f"{name}.SchLib"
+        fam_dir = out_dir / folder
+        fam_dir.mkdir(parents=True, exist_ok=True)
+        path = fam_dir / f"{name}.SchLib"
         lib.save(path)
         try:
             file_rel = path.resolve().relative_to(repo_root).as_posix()
         except ValueError:
-            file_rel = (SYMBOLS_DIR / path.name).as_posix()
+            file_rel = (SYMBOLS_DIR / folder / path.name).as_posix()
         rows.append((file_rel, display, category))
         if not args.no_svg:
-            (svg_dir / f"{name}.svg").write_text(
+            svg_fam_dir = svg_dir / folder
+            svg_fam_dir.mkdir(parents=True, exist_ok=True)
+            (svg_fam_dir / f"{name}.svg").write_text(
                 lib.symbol_to_svg(name), encoding="utf-8")
 
     print(f"Generated {len(rows)} symbols into {out_dir}")

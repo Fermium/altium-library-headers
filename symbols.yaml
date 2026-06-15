@@ -5,2110 +5,2110 @@ symbols:
 
   # ── Header ──────────────────────────────────────────────────────
 
-  - file: "symbols/Header 1.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 1.SchLib"
     name: 1-Pin Header
     category: Header
 
-  - file: "symbols/Header 2.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 2.SchLib"
     name: 2-Pin Header
     category: Header
 
-  - file: "symbols/Header 3.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 3.SchLib"
     name: 3-Pin Header
     category: Header
 
-  - file: "symbols/Header 4.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 4.SchLib"
     name: 4-Pin Header
     category: Header
 
-  - file: "symbols/Header 5.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 5.SchLib"
     name: 5-Pin Header
     category: Header
 
-  - file: "symbols/Header 6.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 6.SchLib"
     name: 6-Pin Header
     category: Header
 
-  - file: "symbols/Header 7.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 7.SchLib"
     name: 7-Pin Header
     category: Header
 
-  - file: "symbols/Header 8.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 8.SchLib"
     name: 8-Pin Header
     category: Header
 
-  - file: "symbols/Header 9.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 9.SchLib"
     name: 9-Pin Header
     category: Header
 
-  - file: "symbols/Header 10.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 10.SchLib"
     name: 10-Pin Header
     category: Header
 
-  - file: "symbols/Header 11.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 11.SchLib"
     name: 11-Pin Header
     category: Header
 
-  - file: "symbols/Header 12.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 12.SchLib"
     name: 12-Pin Header
     category: Header
 
-  - file: "symbols/Header 13.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 13.SchLib"
     name: 13-Pin Header
     category: Header
 
-  - file: "symbols/Header 14.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 14.SchLib"
     name: 14-Pin Header
     category: Header
 
-  - file: "symbols/Header 15.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 15.SchLib"
     name: 15-Pin Header
     category: Header
 
-  - file: "symbols/Header 16.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 16.SchLib"
     name: 16-Pin Header
     category: Header
 
-  - file: "symbols/Header 17.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 17.SchLib"
     name: 17-Pin Header
     category: Header
 
-  - file: "symbols/Header 18.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 18.SchLib"
     name: 18-Pin Header
     category: Header
 
-  - file: "symbols/Header 19.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 19.SchLib"
     name: 19-Pin Header
     category: Header
 
-  - file: "symbols/Header 20.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 20.SchLib"
     name: 20-Pin Header
     category: Header
 
-  - file: "symbols/Header 21.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 21.SchLib"
     name: 21-Pin Header
     category: Header
 
-  - file: "symbols/Header 22.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 22.SchLib"
     name: 22-Pin Header
     category: Header
 
-  - file: "symbols/Header 23.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 23.SchLib"
     name: 23-Pin Header
     category: Header
 
-  - file: "symbols/Header 24.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 24.SchLib"
     name: 24-Pin Header
     category: Header
 
-  - file: "symbols/Header 25.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 25.SchLib"
     name: 25-Pin Header
     category: Header
 
-  - file: "symbols/Header 26.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 26.SchLib"
     name: 26-Pin Header
     category: Header
 
-  - file: "symbols/Header 27.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 27.SchLib"
     name: 27-Pin Header
     category: Header
 
-  - file: "symbols/Header 28.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 28.SchLib"
     name: 28-Pin Header
     category: Header
 
-  - file: "symbols/Header 29.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 29.SchLib"
     name: 29-Pin Header
     category: Header
 
-  - file: "symbols/Header 30.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 30.SchLib"
     name: 30-Pin Header
     category: Header
 
-  - file: "symbols/Header 31.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 31.SchLib"
     name: 31-Pin Header
     category: Header
 
-  - file: "symbols/Header 32.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 32.SchLib"
     name: 32-Pin Header
     category: Header
 
-  - file: "symbols/Header 33.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 33.SchLib"
     name: 33-Pin Header
     category: Header
 
-  - file: "symbols/Header 34.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 34.SchLib"
     name: 34-Pin Header
     category: Header
 
-  - file: "symbols/Header 35.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 35.SchLib"
     name: 35-Pin Header
     category: Header
 
-  - file: "symbols/Header 36.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 36.SchLib"
     name: 36-Pin Header
     category: Header
 
-  - file: "symbols/Header 37.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 37.SchLib"
     name: 37-Pin Header
     category: Header
 
-  - file: "symbols/Header 38.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 38.SchLib"
     name: 38-Pin Header
     category: Header
 
-  - file: "symbols/Header 39.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 39.SchLib"
     name: 39-Pin Header
     category: Header
 
-  - file: "symbols/Header 40.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 40.SchLib"
     name: 40-Pin Header
     category: Header
 
-  - file: "symbols/Header 41.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 41.SchLib"
     name: 41-Pin Header
     category: Header
 
-  - file: "symbols/Header 42.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 42.SchLib"
     name: 42-Pin Header
     category: Header
 
-  - file: "symbols/Header 43.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 43.SchLib"
     name: 43-Pin Header
     category: Header
 
-  - file: "symbols/Header 44.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 44.SchLib"
     name: 44-Pin Header
     category: Header
 
-  - file: "symbols/Header 45.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 45.SchLib"
     name: 45-Pin Header
     category: Header
 
-  - file: "symbols/Header 46.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 46.SchLib"
     name: 46-Pin Header
     category: Header
 
-  - file: "symbols/Header 47.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 47.SchLib"
     name: 47-Pin Header
     category: Header
 
-  - file: "symbols/Header 48.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 48.SchLib"
     name: 48-Pin Header
     category: Header
 
-  - file: "symbols/Header 49.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 49.SchLib"
     name: 49-Pin Header
     category: Header
 
-  - file: "symbols/Header 50.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 50.SchLib"
     name: 50-Pin Header
     category: Header
 
-  - file: "symbols/Header 51.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 51.SchLib"
     name: 51-Pin Header
     category: Header
 
-  - file: "symbols/Header 52.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 52.SchLib"
     name: 52-Pin Header
     category: Header
 
-  - file: "symbols/Header 53.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 53.SchLib"
     name: 53-Pin Header
     category: Header
 
-  - file: "symbols/Header 54.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 54.SchLib"
     name: 54-Pin Header
     category: Header
 
-  - file: "symbols/Header 55.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 55.SchLib"
     name: 55-Pin Header
     category: Header
 
-  - file: "symbols/Header 56.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 56.SchLib"
     name: 56-Pin Header
     category: Header
 
-  - file: "symbols/Header 57.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 57.SchLib"
     name: 57-Pin Header
     category: Header
 
-  - file: "symbols/Header 58.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 58.SchLib"
     name: 58-Pin Header
     category: Header
 
-  - file: "symbols/Header 59.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 59.SchLib"
     name: 59-Pin Header
     category: Header
 
-  - file: "symbols/Header 60.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 60.SchLib"
     name: 60-Pin Header
     category: Header
 
-  - file: "symbols/Header 61.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 61.SchLib"
     name: 61-Pin Header
     category: Header
 
-  - file: "symbols/Header 62.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 62.SchLib"
     name: 62-Pin Header
     category: Header
 
-  - file: "symbols/Header 63.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 63.SchLib"
     name: 63-Pin Header
     category: Header
 
-  - file: "symbols/Header 64.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 64.SchLib"
     name: 64-Pin Header
     category: Header
 
-  - file: "symbols/Header 65.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 65.SchLib"
     name: 65-Pin Header
     category: Header
 
-  - file: "symbols/Header 66.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 66.SchLib"
     name: 66-Pin Header
     category: Header
 
-  - file: "symbols/Header 67.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 67.SchLib"
     name: 67-Pin Header
     category: Header
 
-  - file: "symbols/Header 68.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 68.SchLib"
     name: 68-Pin Header
     category: Header
 
-  - file: "symbols/Header 69.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 69.SchLib"
     name: 69-Pin Header
     category: Header
 
-  - file: "symbols/Header 70.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 70.SchLib"
     name: 70-Pin Header
     category: Header
 
-  - file: "symbols/Header 71.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 71.SchLib"
     name: 71-Pin Header
     category: Header
 
-  - file: "symbols/Header 72.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 72.SchLib"
     name: 72-Pin Header
     category: Header
 
-  - file: "symbols/Header 73.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 73.SchLib"
     name: 73-Pin Header
     category: Header
 
-  - file: "symbols/Header 74.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 74.SchLib"
     name: 74-Pin Header
     category: Header
 
-  - file: "symbols/Header 75.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 75.SchLib"
     name: 75-Pin Header
     category: Header
 
-  - file: "symbols/Header 76.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 76.SchLib"
     name: 76-Pin Header
     category: Header
 
-  - file: "symbols/Header 77.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 77.SchLib"
     name: 77-Pin Header
     category: Header
 
-  - file: "symbols/Header 78.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 78.SchLib"
     name: 78-Pin Header
     category: Header
 
-  - file: "symbols/Header 79.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 79.SchLib"
     name: 79-Pin Header
     category: Header
 
-  - file: "symbols/Header 80.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 80.SchLib"
     name: 80-Pin Header
     category: Header
 
-  - file: "symbols/Header 81.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 81.SchLib"
     name: 81-Pin Header
     category: Header
 
-  - file: "symbols/Header 82.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 82.SchLib"
     name: 82-Pin Header
     category: Header
 
-  - file: "symbols/Header 83.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 83.SchLib"
     name: 83-Pin Header
     category: Header
 
-  - file: "symbols/Header 84.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 84.SchLib"
     name: 84-Pin Header
     category: Header
 
-  - file: "symbols/Header 85.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 85.SchLib"
     name: 85-Pin Header
     category: Header
 
-  - file: "symbols/Header 86.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 86.SchLib"
     name: 86-Pin Header
     category: Header
 
-  - file: "symbols/Header 87.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 87.SchLib"
     name: 87-Pin Header
     category: Header
 
-  - file: "symbols/Header 88.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 88.SchLib"
     name: 88-Pin Header
     category: Header
 
-  - file: "symbols/Header 89.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 89.SchLib"
     name: 89-Pin Header
     category: Header
 
-  - file: "symbols/Header 90.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 90.SchLib"
     name: 90-Pin Header
     category: Header
 
-  - file: "symbols/Header 91.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 91.SchLib"
     name: 91-Pin Header
     category: Header
 
-  - file: "symbols/Header 92.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 92.SchLib"
     name: 92-Pin Header
     category: Header
 
-  - file: "symbols/Header 93.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 93.SchLib"
     name: 93-Pin Header
     category: Header
 
-  - file: "symbols/Header 94.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 94.SchLib"
     name: 94-Pin Header
     category: Header
 
-  - file: "symbols/Header 95.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 95.SchLib"
     name: 95-Pin Header
     category: Header
 
-  - file: "symbols/Header 96.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 96.SchLib"
     name: 96-Pin Header
     category: Header
 
-  - file: "symbols/Header 97.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 97.SchLib"
     name: 97-Pin Header
     category: Header
 
-  - file: "symbols/Header 98.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 98.SchLib"
     name: 98-Pin Header
     category: Header
 
-  - file: "symbols/Header 99.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 99.SchLib"
     name: 99-Pin Header
     category: Header
 
-  - file: "symbols/Header 100.SchLib"
+  - file: "symbols/Pin Headers - Single Row/Header 100.SchLib"
     name: 100-Pin Header
     category: Header
 
-  - file: "symbols/Header 1X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 1X2.SchLib"
     name: 1×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 2X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 2X2.SchLib"
     name: 2×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 3X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 3X2.SchLib"
     name: 3×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 4X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 4X2.SchLib"
     name: 4×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 5X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 5X2.SchLib"
     name: 5×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 6X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 6X2.SchLib"
     name: 6×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 7X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 7X2.SchLib"
     name: 7×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 8X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 8X2.SchLib"
     name: 8×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 9X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 9X2.SchLib"
     name: 9×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 10X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 10X2.SchLib"
     name: 10×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 11X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 11X2.SchLib"
     name: 11×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 12X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 12X2.SchLib"
     name: 12×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 13X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 13X2.SchLib"
     name: 13×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 14X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 14X2.SchLib"
     name: 14×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 15X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 15X2.SchLib"
     name: 15×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 16X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 16X2.SchLib"
     name: 16×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 17X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 17X2.SchLib"
     name: 17×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 18X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 18X2.SchLib"
     name: 18×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 19X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 19X2.SchLib"
     name: 19×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 20X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 20X2.SchLib"
     name: 20×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 21X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 21X2.SchLib"
     name: 21×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 22X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 22X2.SchLib"
     name: 22×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 23X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 23X2.SchLib"
     name: 23×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 24X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 24X2.SchLib"
     name: 24×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 25X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 25X2.SchLib"
     name: 25×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 26X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 26X2.SchLib"
     name: 26×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 27X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 27X2.SchLib"
     name: 27×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 28X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 28X2.SchLib"
     name: 28×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 29X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 29X2.SchLib"
     name: 29×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 30X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 30X2.SchLib"
     name: 30×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 31X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 31X2.SchLib"
     name: 31×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 32X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 32X2.SchLib"
     name: 32×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 33X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 33X2.SchLib"
     name: 33×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 34X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 34X2.SchLib"
     name: 34×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 35X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 35X2.SchLib"
     name: 35×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 36X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 36X2.SchLib"
     name: 36×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 37X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 37X2.SchLib"
     name: 37×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 38X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 38X2.SchLib"
     name: 38×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 39X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 39X2.SchLib"
     name: 39×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 40X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 40X2.SchLib"
     name: 40×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 41X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 41X2.SchLib"
     name: 41×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 42X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 42X2.SchLib"
     name: 42×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 43X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 43X2.SchLib"
     name: 43×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 44X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 44X2.SchLib"
     name: 44×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 45X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 45X2.SchLib"
     name: 45×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 46X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 46X2.SchLib"
     name: 46×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 47X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 47X2.SchLib"
     name: 47×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 48X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 48X2.SchLib"
     name: 48×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 49X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 49X2.SchLib"
     name: 49×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 50X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 50X2.SchLib"
     name: 50×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 51X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 51X2.SchLib"
     name: 51×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 52X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 52X2.SchLib"
     name: 52×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 53X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 53X2.SchLib"
     name: 53×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 54X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 54X2.SchLib"
     name: 54×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 55X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 55X2.SchLib"
     name: 55×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 56X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 56X2.SchLib"
     name: 56×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 57X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 57X2.SchLib"
     name: 57×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 58X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 58X2.SchLib"
     name: 58×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 59X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 59X2.SchLib"
     name: 59×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 60X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 60X2.SchLib"
     name: 60×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 61X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 61X2.SchLib"
     name: 61×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 62X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 62X2.SchLib"
     name: 62×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 63X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 63X2.SchLib"
     name: 63×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 64X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 64X2.SchLib"
     name: 64×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 65X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 65X2.SchLib"
     name: 65×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 66X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 66X2.SchLib"
     name: 66×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 67X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 67X2.SchLib"
     name: 67×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 68X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 68X2.SchLib"
     name: 68×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 69X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 69X2.SchLib"
     name: 69×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 70X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 70X2.SchLib"
     name: 70×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 71X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 71X2.SchLib"
     name: 71×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 72X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 72X2.SchLib"
     name: 72×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 73X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 73X2.SchLib"
     name: 73×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 74X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 74X2.SchLib"
     name: 74×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 75X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 75X2.SchLib"
     name: 75×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 76X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 76X2.SchLib"
     name: 76×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 77X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 77X2.SchLib"
     name: 77×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 78X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 78X2.SchLib"
     name: 78×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 79X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 79X2.SchLib"
     name: 79×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 80X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 80X2.SchLib"
     name: 80×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 81X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 81X2.SchLib"
     name: 81×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 82X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 82X2.SchLib"
     name: 82×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 83X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 83X2.SchLib"
     name: 83×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 84X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 84X2.SchLib"
     name: 84×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 85X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 85X2.SchLib"
     name: 85×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 86X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 86X2.SchLib"
     name: 86×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 87X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 87X2.SchLib"
     name: 87×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 88X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 88X2.SchLib"
     name: 88×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 89X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 89X2.SchLib"
     name: 89×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 90X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 90X2.SchLib"
     name: 90×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 91X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 91X2.SchLib"
     name: 91×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 92X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 92X2.SchLib"
     name: 92×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 93X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 93X2.SchLib"
     name: 93×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 94X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 94X2.SchLib"
     name: 94×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 95X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 95X2.SchLib"
     name: 95×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 96X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 96X2.SchLib"
     name: 96×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 97X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 97X2.SchLib"
     name: 97×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 98X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 98X2.SchLib"
     name: 98×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 99X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 99X2.SchLib"
     name: 99×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 100X2.SchLib"
+  - file: "symbols/Pin Headers - Dual Row/Header 100X2.SchLib"
     name: 100×2 Pin Header
     category: Header
 
-  - file: "symbols/Header 1X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 1X2A.SchLib"
     name: 1×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 2X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 2X2A.SchLib"
     name: 2×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 3X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 3X2A.SchLib"
     name: 3×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 4X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 4X2A.SchLib"
     name: 4×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 5X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 5X2A.SchLib"
     name: 5×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 6X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 6X2A.SchLib"
     name: 6×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 7X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 7X2A.SchLib"
     name: 7×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 8X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 8X2A.SchLib"
     name: 8×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 9X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 9X2A.SchLib"
     name: 9×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 10X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 10X2A.SchLib"
     name: 10×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 11X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 11X2A.SchLib"
     name: 11×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 12X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 12X2A.SchLib"
     name: 12×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 13X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 13X2A.SchLib"
     name: 13×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 14X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 14X2A.SchLib"
     name: 14×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 15X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 15X2A.SchLib"
     name: 15×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 16X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 16X2A.SchLib"
     name: 16×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 17X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 17X2A.SchLib"
     name: 17×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 18X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 18X2A.SchLib"
     name: 18×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 19X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 19X2A.SchLib"
     name: 19×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 20X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 20X2A.SchLib"
     name: 20×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 21X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 21X2A.SchLib"
     name: 21×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 22X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 22X2A.SchLib"
     name: 22×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 23X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 23X2A.SchLib"
     name: 23×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 24X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 24X2A.SchLib"
     name: 24×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 25X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 25X2A.SchLib"
     name: 25×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 26X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 26X2A.SchLib"
     name: 26×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 27X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 27X2A.SchLib"
     name: 27×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 28X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 28X2A.SchLib"
     name: 28×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 29X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 29X2A.SchLib"
     name: 29×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 30X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 30X2A.SchLib"
     name: 30×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 31X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 31X2A.SchLib"
     name: 31×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 32X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 32X2A.SchLib"
     name: 32×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 33X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 33X2A.SchLib"
     name: 33×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 34X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 34X2A.SchLib"
     name: 34×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 35X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 35X2A.SchLib"
     name: 35×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 36X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 36X2A.SchLib"
     name: 36×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 37X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 37X2A.SchLib"
     name: 37×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 38X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 38X2A.SchLib"
     name: 38×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 39X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 39X2A.SchLib"
     name: 39×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 40X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 40X2A.SchLib"
     name: 40×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 41X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 41X2A.SchLib"
     name: 41×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 42X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 42X2A.SchLib"
     name: 42×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 43X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 43X2A.SchLib"
     name: 43×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 44X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 44X2A.SchLib"
     name: 44×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 45X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 45X2A.SchLib"
     name: 45×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 46X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 46X2A.SchLib"
     name: 46×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 47X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 47X2A.SchLib"
     name: 47×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 48X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 48X2A.SchLib"
     name: 48×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 49X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 49X2A.SchLib"
     name: 49×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 50X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 50X2A.SchLib"
     name: 50×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 51X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 51X2A.SchLib"
     name: 51×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 52X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 52X2A.SchLib"
     name: 52×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 53X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 53X2A.SchLib"
     name: 53×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 54X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 54X2A.SchLib"
     name: 54×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 55X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 55X2A.SchLib"
     name: 55×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 56X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 56X2A.SchLib"
     name: 56×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 57X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 57X2A.SchLib"
     name: 57×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 58X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 58X2A.SchLib"
     name: 58×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 59X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 59X2A.SchLib"
     name: 59×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 60X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 60X2A.SchLib"
     name: 60×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 61X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 61X2A.SchLib"
     name: 61×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 62X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 62X2A.SchLib"
     name: 62×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 63X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 63X2A.SchLib"
     name: 63×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 64X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 64X2A.SchLib"
     name: 64×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 65X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 65X2A.SchLib"
     name: 65×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 66X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 66X2A.SchLib"
     name: 66×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 67X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 67X2A.SchLib"
     name: 67×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 68X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 68X2A.SchLib"
     name: 68×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 69X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 69X2A.SchLib"
     name: 69×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 70X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 70X2A.SchLib"
     name: 70×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 71X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 71X2A.SchLib"
     name: 71×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 72X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 72X2A.SchLib"
     name: 72×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 73X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 73X2A.SchLib"
     name: 73×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 74X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 74X2A.SchLib"
     name: 74×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 75X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 75X2A.SchLib"
     name: 75×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 76X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 76X2A.SchLib"
     name: 76×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 77X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 77X2A.SchLib"
     name: 77×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 78X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 78X2A.SchLib"
     name: 78×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 79X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 79X2A.SchLib"
     name: 79×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 80X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 80X2A.SchLib"
     name: 80×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 81X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 81X2A.SchLib"
     name: 81×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 82X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 82X2A.SchLib"
     name: 82×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 83X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 83X2A.SchLib"
     name: 83×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 84X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 84X2A.SchLib"
     name: 84×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 85X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 85X2A.SchLib"
     name: 85×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 86X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 86X2A.SchLib"
     name: 86×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 87X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 87X2A.SchLib"
     name: 87×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 88X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 88X2A.SchLib"
     name: 88×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 89X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 89X2A.SchLib"
     name: 89×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 90X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 90X2A.SchLib"
     name: 90×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 91X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 91X2A.SchLib"
     name: 91×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 92X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 92X2A.SchLib"
     name: 92×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 93X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 93X2A.SchLib"
     name: 93×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 94X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 94X2A.SchLib"
     name: 94×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 95X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 95X2A.SchLib"
     name: 95×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 96X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 96X2A.SchLib"
     name: 96×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 97X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 97X2A.SchLib"
     name: 97×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 98X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 98X2A.SchLib"
     name: 98×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 99X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 99X2A.SchLib"
     name: 99×2 Pin Header (Angled)
     category: Header
 
-  - file: "symbols/Header 100X2A.SchLib"
+  - file: "symbols/Pin Headers - Dual Row Angled/Header 100X2A.SchLib"
     name: 100×2 Pin Header (Angled)
     category: Header
 
   # ── Socket ──────────────────────────────────────────────────────
 
-  - file: "symbols/Socket 1.SchLib"
+  - file: "symbols/Sockets/Socket 1.SchLib"
     name: 1-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 2.SchLib"
+  - file: "symbols/Sockets/Socket 2.SchLib"
     name: 2-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 3.SchLib"
+  - file: "symbols/Sockets/Socket 3.SchLib"
     name: 3-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 4.SchLib"
+  - file: "symbols/Sockets/Socket 4.SchLib"
     name: 4-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 5.SchLib"
+  - file: "symbols/Sockets/Socket 5.SchLib"
     name: 5-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 6.SchLib"
+  - file: "symbols/Sockets/Socket 6.SchLib"
     name: 6-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 7.SchLib"
+  - file: "symbols/Sockets/Socket 7.SchLib"
     name: 7-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 8.SchLib"
+  - file: "symbols/Sockets/Socket 8.SchLib"
     name: 8-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 9.SchLib"
+  - file: "symbols/Sockets/Socket 9.SchLib"
     name: 9-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 10.SchLib"
+  - file: "symbols/Sockets/Socket 10.SchLib"
     name: 10-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 11.SchLib"
+  - file: "symbols/Sockets/Socket 11.SchLib"
     name: 11-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 12.SchLib"
+  - file: "symbols/Sockets/Socket 12.SchLib"
     name: 12-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 13.SchLib"
+  - file: "symbols/Sockets/Socket 13.SchLib"
     name: 13-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 14.SchLib"
+  - file: "symbols/Sockets/Socket 14.SchLib"
     name: 14-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 15.SchLib"
+  - file: "symbols/Sockets/Socket 15.SchLib"
     name: 15-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 16.SchLib"
+  - file: "symbols/Sockets/Socket 16.SchLib"
     name: 16-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 17.SchLib"
+  - file: "symbols/Sockets/Socket 17.SchLib"
     name: 17-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 18.SchLib"
+  - file: "symbols/Sockets/Socket 18.SchLib"
     name: 18-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 19.SchLib"
+  - file: "symbols/Sockets/Socket 19.SchLib"
     name: 19-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 20.SchLib"
+  - file: "symbols/Sockets/Socket 20.SchLib"
     name: 20-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 21.SchLib"
+  - file: "symbols/Sockets/Socket 21.SchLib"
     name: 21-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 22.SchLib"
+  - file: "symbols/Sockets/Socket 22.SchLib"
     name: 22-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 23.SchLib"
+  - file: "symbols/Sockets/Socket 23.SchLib"
     name: 23-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 24.SchLib"
+  - file: "symbols/Sockets/Socket 24.SchLib"
     name: 24-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 25.SchLib"
+  - file: "symbols/Sockets/Socket 25.SchLib"
     name: 25-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 26.SchLib"
+  - file: "symbols/Sockets/Socket 26.SchLib"
     name: 26-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 27.SchLib"
+  - file: "symbols/Sockets/Socket 27.SchLib"
     name: 27-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 28.SchLib"
+  - file: "symbols/Sockets/Socket 28.SchLib"
     name: 28-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 29.SchLib"
+  - file: "symbols/Sockets/Socket 29.SchLib"
     name: 29-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 30.SchLib"
+  - file: "symbols/Sockets/Socket 30.SchLib"
     name: 30-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 31.SchLib"
+  - file: "symbols/Sockets/Socket 31.SchLib"
     name: 31-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 32.SchLib"
+  - file: "symbols/Sockets/Socket 32.SchLib"
     name: 32-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 33.SchLib"
+  - file: "symbols/Sockets/Socket 33.SchLib"
     name: 33-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 34.SchLib"
+  - file: "symbols/Sockets/Socket 34.SchLib"
     name: 34-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 35.SchLib"
+  - file: "symbols/Sockets/Socket 35.SchLib"
     name: 35-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 36.SchLib"
+  - file: "symbols/Sockets/Socket 36.SchLib"
     name: 36-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 37.SchLib"
+  - file: "symbols/Sockets/Socket 37.SchLib"
     name: 37-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 38.SchLib"
+  - file: "symbols/Sockets/Socket 38.SchLib"
     name: 38-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 39.SchLib"
+  - file: "symbols/Sockets/Socket 39.SchLib"
     name: 39-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 40.SchLib"
+  - file: "symbols/Sockets/Socket 40.SchLib"
     name: 40-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 41.SchLib"
+  - file: "symbols/Sockets/Socket 41.SchLib"
     name: 41-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 42.SchLib"
+  - file: "symbols/Sockets/Socket 42.SchLib"
     name: 42-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 43.SchLib"
+  - file: "symbols/Sockets/Socket 43.SchLib"
     name: 43-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 44.SchLib"
+  - file: "symbols/Sockets/Socket 44.SchLib"
     name: 44-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 45.SchLib"
+  - file: "symbols/Sockets/Socket 45.SchLib"
     name: 45-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 46.SchLib"
+  - file: "symbols/Sockets/Socket 46.SchLib"
     name: 46-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 47.SchLib"
+  - file: "symbols/Sockets/Socket 47.SchLib"
     name: 47-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 48.SchLib"
+  - file: "symbols/Sockets/Socket 48.SchLib"
     name: 48-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 49.SchLib"
+  - file: "symbols/Sockets/Socket 49.SchLib"
     name: 49-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 50.SchLib"
+  - file: "symbols/Sockets/Socket 50.SchLib"
     name: 50-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 51.SchLib"
+  - file: "symbols/Sockets/Socket 51.SchLib"
     name: 51-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 52.SchLib"
+  - file: "symbols/Sockets/Socket 52.SchLib"
     name: 52-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 53.SchLib"
+  - file: "symbols/Sockets/Socket 53.SchLib"
     name: 53-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 54.SchLib"
+  - file: "symbols/Sockets/Socket 54.SchLib"
     name: 54-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 55.SchLib"
+  - file: "symbols/Sockets/Socket 55.SchLib"
     name: 55-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 56.SchLib"
+  - file: "symbols/Sockets/Socket 56.SchLib"
     name: 56-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 57.SchLib"
+  - file: "symbols/Sockets/Socket 57.SchLib"
     name: 57-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 58.SchLib"
+  - file: "symbols/Sockets/Socket 58.SchLib"
     name: 58-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 59.SchLib"
+  - file: "symbols/Sockets/Socket 59.SchLib"
     name: 59-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 60.SchLib"
+  - file: "symbols/Sockets/Socket 60.SchLib"
     name: 60-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 61.SchLib"
+  - file: "symbols/Sockets/Socket 61.SchLib"
     name: 61-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 62.SchLib"
+  - file: "symbols/Sockets/Socket 62.SchLib"
     name: 62-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 63.SchLib"
+  - file: "symbols/Sockets/Socket 63.SchLib"
     name: 63-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 64.SchLib"
+  - file: "symbols/Sockets/Socket 64.SchLib"
     name: 64-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 65.SchLib"
+  - file: "symbols/Sockets/Socket 65.SchLib"
     name: 65-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 66.SchLib"
+  - file: "symbols/Sockets/Socket 66.SchLib"
     name: 66-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 67.SchLib"
+  - file: "symbols/Sockets/Socket 67.SchLib"
     name: 67-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 68.SchLib"
+  - file: "symbols/Sockets/Socket 68.SchLib"
     name: 68-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 69.SchLib"
+  - file: "symbols/Sockets/Socket 69.SchLib"
     name: 69-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 70.SchLib"
+  - file: "symbols/Sockets/Socket 70.SchLib"
     name: 70-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 71.SchLib"
+  - file: "symbols/Sockets/Socket 71.SchLib"
     name: 71-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 72.SchLib"
+  - file: "symbols/Sockets/Socket 72.SchLib"
     name: 72-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 73.SchLib"
+  - file: "symbols/Sockets/Socket 73.SchLib"
     name: 73-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 74.SchLib"
+  - file: "symbols/Sockets/Socket 74.SchLib"
     name: 74-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 75.SchLib"
+  - file: "symbols/Sockets/Socket 75.SchLib"
     name: 75-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 76.SchLib"
+  - file: "symbols/Sockets/Socket 76.SchLib"
     name: 76-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 77.SchLib"
+  - file: "symbols/Sockets/Socket 77.SchLib"
     name: 77-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 78.SchLib"
+  - file: "symbols/Sockets/Socket 78.SchLib"
     name: 78-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 79.SchLib"
+  - file: "symbols/Sockets/Socket 79.SchLib"
     name: 79-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 80.SchLib"
+  - file: "symbols/Sockets/Socket 80.SchLib"
     name: 80-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 81.SchLib"
+  - file: "symbols/Sockets/Socket 81.SchLib"
     name: 81-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 82.SchLib"
+  - file: "symbols/Sockets/Socket 82.SchLib"
     name: 82-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 83.SchLib"
+  - file: "symbols/Sockets/Socket 83.SchLib"
     name: 83-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 84.SchLib"
+  - file: "symbols/Sockets/Socket 84.SchLib"
     name: 84-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 85.SchLib"
+  - file: "symbols/Sockets/Socket 85.SchLib"
     name: 85-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 86.SchLib"
+  - file: "symbols/Sockets/Socket 86.SchLib"
     name: 86-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 87.SchLib"
+  - file: "symbols/Sockets/Socket 87.SchLib"
     name: 87-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 88.SchLib"
+  - file: "symbols/Sockets/Socket 88.SchLib"
     name: 88-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 89.SchLib"
+  - file: "symbols/Sockets/Socket 89.SchLib"
     name: 89-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 90.SchLib"
+  - file: "symbols/Sockets/Socket 90.SchLib"
     name: 90-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 91.SchLib"
+  - file: "symbols/Sockets/Socket 91.SchLib"
     name: 91-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 92.SchLib"
+  - file: "symbols/Sockets/Socket 92.SchLib"
     name: 92-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 93.SchLib"
+  - file: "symbols/Sockets/Socket 93.SchLib"
     name: 93-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 94.SchLib"
+  - file: "symbols/Sockets/Socket 94.SchLib"
     name: 94-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 95.SchLib"
+  - file: "symbols/Sockets/Socket 95.SchLib"
     name: 95-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 96.SchLib"
+  - file: "symbols/Sockets/Socket 96.SchLib"
     name: 96-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 97.SchLib"
+  - file: "symbols/Sockets/Socket 97.SchLib"
     name: 97-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 98.SchLib"
+  - file: "symbols/Sockets/Socket 98.SchLib"
     name: 98-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 99.SchLib"
+  - file: "symbols/Sockets/Socket 99.SchLib"
     name: 99-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 100.SchLib"
+  - file: "symbols/Sockets/Socket 100.SchLib"
     name: 100-Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 1X2.SchLib"
+  - file: "symbols/Sockets/Socket 1X2.SchLib"
     name: 1×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 2X2.SchLib"
+  - file: "symbols/Sockets/Socket 2X2.SchLib"
     name: 2×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 3X2.SchLib"
+  - file: "symbols/Sockets/Socket 3X2.SchLib"
     name: 3×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 4X2.SchLib"
+  - file: "symbols/Sockets/Socket 4X2.SchLib"
     name: 4×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 5X2.SchLib"
+  - file: "symbols/Sockets/Socket 5X2.SchLib"
     name: 5×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 6X2.SchLib"
+  - file: "symbols/Sockets/Socket 6X2.SchLib"
     name: 6×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 7X2.SchLib"
+  - file: "symbols/Sockets/Socket 7X2.SchLib"
     name: 7×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 8X2.SchLib"
+  - file: "symbols/Sockets/Socket 8X2.SchLib"
     name: 8×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 9X2.SchLib"
+  - file: "symbols/Sockets/Socket 9X2.SchLib"
     name: 9×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 10X2.SchLib"
+  - file: "symbols/Sockets/Socket 10X2.SchLib"
     name: 10×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 11X2.SchLib"
+  - file: "symbols/Sockets/Socket 11X2.SchLib"
     name: 11×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 12X2.SchLib"
+  - file: "symbols/Sockets/Socket 12X2.SchLib"
     name: 12×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 13X2.SchLib"
+  - file: "symbols/Sockets/Socket 13X2.SchLib"
     name: 13×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 14X2.SchLib"
+  - file: "symbols/Sockets/Socket 14X2.SchLib"
     name: 14×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 15X2.SchLib"
+  - file: "symbols/Sockets/Socket 15X2.SchLib"
     name: 15×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 16X2.SchLib"
+  - file: "symbols/Sockets/Socket 16X2.SchLib"
     name: 16×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 17X2.SchLib"
+  - file: "symbols/Sockets/Socket 17X2.SchLib"
     name: 17×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 18X2.SchLib"
+  - file: "symbols/Sockets/Socket 18X2.SchLib"
     name: 18×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 19X2.SchLib"
+  - file: "symbols/Sockets/Socket 19X2.SchLib"
     name: 19×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 20X2.SchLib"
+  - file: "symbols/Sockets/Socket 20X2.SchLib"
     name: 20×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 21X2.SchLib"
+  - file: "symbols/Sockets/Socket 21X2.SchLib"
     name: 21×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 22X2.SchLib"
+  - file: "symbols/Sockets/Socket 22X2.SchLib"
     name: 22×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 23X2.SchLib"
+  - file: "symbols/Sockets/Socket 23X2.SchLib"
     name: 23×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 24X2.SchLib"
+  - file: "symbols/Sockets/Socket 24X2.SchLib"
     name: 24×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 25X2.SchLib"
+  - file: "symbols/Sockets/Socket 25X2.SchLib"
     name: 25×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 26X2.SchLib"
+  - file: "symbols/Sockets/Socket 26X2.SchLib"
     name: 26×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 27X2.SchLib"
+  - file: "symbols/Sockets/Socket 27X2.SchLib"
     name: 27×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 28X2.SchLib"
+  - file: "symbols/Sockets/Socket 28X2.SchLib"
     name: 28×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 29X2.SchLib"
+  - file: "symbols/Sockets/Socket 29X2.SchLib"
     name: 29×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 30X2.SchLib"
+  - file: "symbols/Sockets/Socket 30X2.SchLib"
     name: 30×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 31X2.SchLib"
+  - file: "symbols/Sockets/Socket 31X2.SchLib"
     name: 31×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 32X2.SchLib"
+  - file: "symbols/Sockets/Socket 32X2.SchLib"
     name: 32×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 33X2.SchLib"
+  - file: "symbols/Sockets/Socket 33X2.SchLib"
     name: 33×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 34X2.SchLib"
+  - file: "symbols/Sockets/Socket 34X2.SchLib"
     name: 34×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 35X2.SchLib"
+  - file: "symbols/Sockets/Socket 35X2.SchLib"
     name: 35×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 36X2.SchLib"
+  - file: "symbols/Sockets/Socket 36X2.SchLib"
     name: 36×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 37X2.SchLib"
+  - file: "symbols/Sockets/Socket 37X2.SchLib"
     name: 37×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 38X2.SchLib"
+  - file: "symbols/Sockets/Socket 38X2.SchLib"
     name: 38×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 39X2.SchLib"
+  - file: "symbols/Sockets/Socket 39X2.SchLib"
     name: 39×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 40X2.SchLib"
+  - file: "symbols/Sockets/Socket 40X2.SchLib"
     name: 40×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 41X2.SchLib"
+  - file: "symbols/Sockets/Socket 41X2.SchLib"
     name: 41×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 42X2.SchLib"
+  - file: "symbols/Sockets/Socket 42X2.SchLib"
     name: 42×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 43X2.SchLib"
+  - file: "symbols/Sockets/Socket 43X2.SchLib"
     name: 43×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 44X2.SchLib"
+  - file: "symbols/Sockets/Socket 44X2.SchLib"
     name: 44×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 45X2.SchLib"
+  - file: "symbols/Sockets/Socket 45X2.SchLib"
     name: 45×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 46X2.SchLib"
+  - file: "symbols/Sockets/Socket 46X2.SchLib"
     name: 46×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 47X2.SchLib"
+  - file: "symbols/Sockets/Socket 47X2.SchLib"
     name: 47×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 48X2.SchLib"
+  - file: "symbols/Sockets/Socket 48X2.SchLib"
     name: 48×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 49X2.SchLib"
+  - file: "symbols/Sockets/Socket 49X2.SchLib"
     name: 49×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 50X2.SchLib"
+  - file: "symbols/Sockets/Socket 50X2.SchLib"
     name: 50×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 51X2.SchLib"
+  - file: "symbols/Sockets/Socket 51X2.SchLib"
     name: 51×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 52X2.SchLib"
+  - file: "symbols/Sockets/Socket 52X2.SchLib"
     name: 52×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 53X2.SchLib"
+  - file: "symbols/Sockets/Socket 53X2.SchLib"
     name: 53×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 54X2.SchLib"
+  - file: "symbols/Sockets/Socket 54X2.SchLib"
     name: 54×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 55X2.SchLib"
+  - file: "symbols/Sockets/Socket 55X2.SchLib"
     name: 55×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 56X2.SchLib"
+  - file: "symbols/Sockets/Socket 56X2.SchLib"
     name: 56×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 57X2.SchLib"
+  - file: "symbols/Sockets/Socket 57X2.SchLib"
     name: 57×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 58X2.SchLib"
+  - file: "symbols/Sockets/Socket 58X2.SchLib"
     name: 58×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 59X2.SchLib"
+  - file: "symbols/Sockets/Socket 59X2.SchLib"
     name: 59×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 60X2.SchLib"
+  - file: "symbols/Sockets/Socket 60X2.SchLib"
     name: 60×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 61X2.SchLib"
+  - file: "symbols/Sockets/Socket 61X2.SchLib"
     name: 61×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 62X2.SchLib"
+  - file: "symbols/Sockets/Socket 62X2.SchLib"
     name: 62×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 63X2.SchLib"
+  - file: "symbols/Sockets/Socket 63X2.SchLib"
     name: 63×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 64X2.SchLib"
+  - file: "symbols/Sockets/Socket 64X2.SchLib"
     name: 64×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 65X2.SchLib"
+  - file: "symbols/Sockets/Socket 65X2.SchLib"
     name: 65×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 66X2.SchLib"
+  - file: "symbols/Sockets/Socket 66X2.SchLib"
     name: 66×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 67X2.SchLib"
+  - file: "symbols/Sockets/Socket 67X2.SchLib"
     name: 67×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 68X2.SchLib"
+  - file: "symbols/Sockets/Socket 68X2.SchLib"
     name: 68×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 69X2.SchLib"
+  - file: "symbols/Sockets/Socket 69X2.SchLib"
     name: 69×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 70X2.SchLib"
+  - file: "symbols/Sockets/Socket 70X2.SchLib"
     name: 70×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 71X2.SchLib"
+  - file: "symbols/Sockets/Socket 71X2.SchLib"
     name: 71×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 72X2.SchLib"
+  - file: "symbols/Sockets/Socket 72X2.SchLib"
     name: 72×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 73X2.SchLib"
+  - file: "symbols/Sockets/Socket 73X2.SchLib"
     name: 73×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 74X2.SchLib"
+  - file: "symbols/Sockets/Socket 74X2.SchLib"
     name: 74×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 75X2.SchLib"
+  - file: "symbols/Sockets/Socket 75X2.SchLib"
     name: 75×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 76X2.SchLib"
+  - file: "symbols/Sockets/Socket 76X2.SchLib"
     name: 76×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 77X2.SchLib"
+  - file: "symbols/Sockets/Socket 77X2.SchLib"
     name: 77×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 78X2.SchLib"
+  - file: "symbols/Sockets/Socket 78X2.SchLib"
     name: 78×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 79X2.SchLib"
+  - file: "symbols/Sockets/Socket 79X2.SchLib"
     name: 79×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 80X2.SchLib"
+  - file: "symbols/Sockets/Socket 80X2.SchLib"
     name: 80×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 81X2.SchLib"
+  - file: "symbols/Sockets/Socket 81X2.SchLib"
     name: 81×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 82X2.SchLib"
+  - file: "symbols/Sockets/Socket 82X2.SchLib"
     name: 82×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 83X2.SchLib"
+  - file: "symbols/Sockets/Socket 83X2.SchLib"
     name: 83×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 84X2.SchLib"
+  - file: "symbols/Sockets/Socket 84X2.SchLib"
     name: 84×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 85X2.SchLib"
+  - file: "symbols/Sockets/Socket 85X2.SchLib"
     name: 85×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 86X2.SchLib"
+  - file: "symbols/Sockets/Socket 86X2.SchLib"
     name: 86×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 87X2.SchLib"
+  - file: "symbols/Sockets/Socket 87X2.SchLib"
     name: 87×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 88X2.SchLib"
+  - file: "symbols/Sockets/Socket 88X2.SchLib"
     name: 88×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 89X2.SchLib"
+  - file: "symbols/Sockets/Socket 89X2.SchLib"
     name: 89×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 90X2.SchLib"
+  - file: "symbols/Sockets/Socket 90X2.SchLib"
     name: 90×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 91X2.SchLib"
+  - file: "symbols/Sockets/Socket 91X2.SchLib"
     name: 91×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 92X2.SchLib"
+  - file: "symbols/Sockets/Socket 92X2.SchLib"
     name: 92×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 93X2.SchLib"
+  - file: "symbols/Sockets/Socket 93X2.SchLib"
     name: 93×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 94X2.SchLib"
+  - file: "symbols/Sockets/Socket 94X2.SchLib"
     name: 94×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 95X2.SchLib"
+  - file: "symbols/Sockets/Socket 95X2.SchLib"
     name: 95×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 96X2.SchLib"
+  - file: "symbols/Sockets/Socket 96X2.SchLib"
     name: 96×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 97X2.SchLib"
+  - file: "symbols/Sockets/Socket 97X2.SchLib"
     name: 97×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 98X2.SchLib"
+  - file: "symbols/Sockets/Socket 98X2.SchLib"
     name: 98×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 99X2.SchLib"
+  - file: "symbols/Sockets/Socket 99X2.SchLib"
     name: 99×2 Pin Socket
     category: Socket
 
-  - file: "symbols/Socket 100X2.SchLib"
+  - file: "symbols/Sockets/Socket 100X2.SchLib"
     name: 100×2 Pin Socket
     category: Socket
 
   # ── Boxed Header ────────────────────────────────────────────────
 
-  - file: "symbols/Header IDC 6.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 6.SchLib"
     name: 6-Pin Boxed Header (2×3)
     category: Boxed Header
 
-  - file: "symbols/Header IDC 10.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 10.SchLib"
     name: 10-Pin Boxed Header (2×5)
     category: Boxed Header
 
-  - file: "symbols/Header IDC 14.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 14.SchLib"
     name: 14-Pin Boxed Header (2×7)
     category: Boxed Header
 
-  - file: "symbols/Header IDC 16.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 16.SchLib"
     name: 16-Pin Boxed Header (2×8)
     category: Boxed Header
 
-  - file: "symbols/Header IDC 20.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 20.SchLib"
     name: 20-Pin Boxed Header (2×10)
     category: Boxed Header
 
-  - file: "symbols/Header IDC 26.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 26.SchLib"
     name: 26-Pin Boxed Header (2×13)
     category: Boxed Header
 
-  - file: "symbols/Header IDC 34.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 34.SchLib"
     name: 34-Pin Boxed Header (2×17)
     category: Boxed Header
 
-  - file: "symbols/Header IDC 40.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 40.SchLib"
     name: 40-Pin Boxed Header (2×20)
     category: Boxed Header
 
-  - file: "symbols/Header IDC 50.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 50.SchLib"
     name: 50-Pin Boxed Header (2×25)
     category: Boxed Header
 
-  - file: "symbols/Header IDC 60.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 60.SchLib"
     name: 60-Pin Boxed Header (2×30)
     category: Boxed Header
 
-  - file: "symbols/Header IDC 64.SchLib"
+  - file: "symbols/Boxed Headers IDC/Header IDC 64.SchLib"
     name: 64-Pin Boxed Header (2×32)
     category: Boxed Header
 
   # ── Jumper ──────────────────────────────────────────────────────
 
-  - file: "symbols/Jumper 2.SchLib"
+  - file: "symbols/Jumpers/Jumper 2.SchLib"
     name: 2-Pin Jumper
     category: Jumper
 
-  - file: "symbols/Jumper 3.SchLib"
+  - file: "symbols/Jumpers/Jumper 3.SchLib"
     name: 3-Pin Jumper
     category: Jumper
 
-  - file: "symbols/Jumper 2X2.SchLib"
+  - file: "symbols/Jumpers/Jumper 2X2.SchLib"
     name: 2×2 Pin Jumper
     category: Jumper
 
   # ── Terminal Block ──────────────────────────────────────────────
 
-  - file: "symbols/Terminal Block 2.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 2.SchLib"
     name: 2-Way Terminal Block
     category: Terminal Block
 
-  - file: "symbols/Terminal Block 3.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 3.SchLib"
     name: 3-Way Terminal Block
     category: Terminal Block
 
-  - file: "symbols/Terminal Block 4.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 4.SchLib"
     name: 4-Way Terminal Block
     category: Terminal Block
 
-  - file: "symbols/Terminal Block 5.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 5.SchLib"
     name: 5-Way Terminal Block
     category: Terminal Block
 
-  - file: "symbols/Terminal Block 6.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 6.SchLib"
     name: 6-Way Terminal Block
     category: Terminal Block
 
-  - file: "symbols/Terminal Block 7.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 7.SchLib"
     name: 7-Way Terminal Block
     category: Terminal Block
 
-  - file: "symbols/Terminal Block 8.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 8.SchLib"
     name: 8-Way Terminal Block
     category: Terminal Block
 
-  - file: "symbols/Terminal Block 9.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 9.SchLib"
     name: 9-Way Terminal Block
     category: Terminal Block
 
-  - file: "symbols/Terminal Block 10.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 10.SchLib"
     name: 10-Way Terminal Block
     category: Terminal Block
 
-  - file: "symbols/Terminal Block 11.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 11.SchLib"
     name: 11-Way Terminal Block
     category: Terminal Block
 
-  - file: "symbols/Terminal Block 12.SchLib"
+  - file: "symbols/Terminal Blocks/Terminal Block 12.SchLib"
     name: 12-Way Terminal Block
     category: Terminal Block
