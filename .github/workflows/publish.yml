@@ -1,5 +1,9 @@
 name: Publish to Sideband
 
+# Generate the header/connector symbols from first principles (altium-monkey),
+# then incrementally sync them to the Sideband catalog via the shared action
+# (adds new, removes deleted, skips existing — the website renders previews on
+# ingest). On push to main + on demand. Runs on the self-hosted dev1 runner.
 on:
   push:
     branches: [main]
@@ -10,24 +14,31 @@ permissions:
 
 concurrency:
   group: publish
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, dev1]
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
 
-      - run: pip install -r requirements.txt
+      - run: pip install -r tools/requirements.txt
 
-      # The repo only sends data; Sideband renders previews + publishes the entry.
-      - run: python publish.py
-        env:
-          SIDEBAND_API_URL: ${{ secrets.SIDEBAND_API_URL }}
-          SIDEBAND_CATALOG_URL: ${{ secrets.SIDEBAND_CATALOG_URL }}
-          SIDEBAND_PUBLISH_TOKEN: ${{ secrets.SIDEBAND_PUBLISH_TOKEN }}
+      # Regenerate the full set so the catalog always matches the generator.
+      # --no-svg: previews are rendered server-side by Sideband on ingest.
+      - name: Generate header / connector symbols
+        run: python tools/generate_symbols.py --no-svg
+
+      - name: Publish -> fermium/altium-library-headers
+        uses: Fermium/sideband-library-publish@v1
+        with:
+          slug: altium-headers
+          org: fermium
+          repo: altium-library-headers
+          source-dir: symbols
+          catalog-url: ${{ secrets.SIDEBAND_CATALOG_URL }}
+          token: ${{ secrets.SIDEBAND_PUBLISH_TOKEN }}
